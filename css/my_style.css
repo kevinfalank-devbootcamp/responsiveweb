@@ -19,12 +19,15 @@ h2 {
 	font-size: 1.500em;
 	color: #B4C34F;
 }
+img {
+	max-width: 100%
+}
 
 .btn {
 	color: #FAF3BC;
 	background: #4FB69F url('img/texture.png') no-repeat right top;
-	padding: 15px 30px;
-	margin: 40px 0px;
+	padding: 2.0134% 4.0268%; /* using grid_9 container; 15px 30px */
+	margin: 5.3691% 0; /* using grid_9 container; 40px 0px */
 	border-radius: 25px;
 	text-transform: uppercase;
 }
@@ -35,14 +38,14 @@ h2 {
 }
 
 ul.nav {
-	margin: 120px 0 0 0;
+	margin: 120px 0 0 0; /* using grid_8 container; 120px 0 0 0 */
 	list-style: none;
 	float: right;
 }
 
 ul.nav li {
 	float: left;
-	margin-right: 40px;
+	margin-right: 40px; /* using nav container; 40px */
 }
 
 ul.nav li a {
@@ -83,3 +86,36 @@ ul.nav li a {
 	margin: 15px 0px;
 	text-align: center;
 }
+
+/* Media Queries */
+
+/* iPhone --------------------------- */
+@media screen and (max-width: 480px) {
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width: 100%;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
