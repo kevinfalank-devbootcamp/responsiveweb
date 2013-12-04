@@ -106,8 +106,8 @@ img {
 
 /* Media Queries */
 
-/* iPhone --------------------------- */
-@media screen and (max-width: 480px) {
+/* small --------------------------- */
+@media screen and (max-width: 650px) {
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -167,7 +167,7 @@ img {
 
 }
 
-/* Tablet ----------- */
+/* Medium ----------- */
 @media screen and (max-width: 1024px) {
 
 
